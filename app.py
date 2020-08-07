@@ -9,8 +9,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():
-    return "Hello World!"
+def messageSimple():
+    return "Hi Shasha, Please follow my email to know more about how to use API"
 
 
 @app.route('/<start_date>/<end_date>', methods=['GET'])
